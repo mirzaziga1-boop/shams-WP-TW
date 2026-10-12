@@ -1,0 +1,65 @@
+<?php
+if(!defined('ABSPATH'))exit;
+$shams_translations=array(
+'nav.home'=>array('en'=>'Home','bs'=>'Početna','ar'=>'الرئيسية'),
+'nav.accommodations'=>array('en'=>'Accommodations','bs'=>'Smještaj','ar'=>'أماكن الإقامة'),
+'nav.cars'=>array('en'=>'Cars','bs'=>'Automobili','ar'=>'سيارات'),
+'nav.bundles'=>array('en'=>'Bundles','bs'=>'Paketi','ar'=>'حزم السفر'),
+'nav.about'=>array('en'=>'About Us','bs'=>'O nama','ar'=>'من نحن'),
+'nav.realEstate'=>array('en'=>'Land & Properties','bs'=>'Zemljište i Nekretnine','ar'=>'الأراضي والعقارات'),
+'nav.bookNow'=>array('en'=>'Book Now','bs'=>'Rezerviši Sada','ar'=>'احجز الآن'),
+'nav.contact'=>array('en'=>'Contact','bs'=>'Kontakt','ar'=>'اتصل بنا'),
+'nav.blog'=>array('en'=>'Blog','bs'=>'Blog','ar'=>'المدونة'),
+'hero.explore'=>array('en'=>'Explore Bosnia and Herzegovina','bs'=>'Istražite Bosnu i Hercegovinu','ar'=>'اكتشف البوسنة والهرسك'),
+'hero.subtitle'=>array('en'=>'Your refined gateway to the beauty of Bosnia and Herzegovina','bs'=>'Vaš rafinirani prolaz ka ljepotama Bosne i Hercegovine','ar'=>'بوابتك الراقية إلى جمال البوسنة والهرسك'),
+'home.service.car'=>array('en'=>'Rent a Car','bs'=>'Iznajmi Auto','ar'=>'استئجار سيارة'),
+'home.service.hotel'=>array('en'=>'Book Hotel','bs'=>'Rezerviši Hotel','ar'=>'حجز فندق'),
+'home.service.apartment'=>array('en'=>'Rent Apartment','bs'=>'Iznajmi Apartman','ar'=>'استئجار شقة'),
+'home.viewMore'=>array('en'=>'View More','bs'=>'Pogledaj više','ar'=>'عرض المزيد'),
+'trust.bestPrice'=>array('en'=>'Best Price Guaranteed','bs'=>'Garantirana najbolja cijena','ar'=>'ضمان أفضل سعر'),
+'trust.bestPriceDesc'=>array('en'=>'We match any lower price you find.','bs'=>'Izjednačavamo svaku nižu cijenu.','ar'=>'نطابق أي سعر أقل تجده.'),
+'trust.noHiddenFees'=>array('en'=>'No Hidden Fees','bs'=>'Bez skrivenih troškova','ar'=>'بدون رسوم خفية'),
+'trust.noHiddenFeesDesc'=>array('en'=>'The price you see is the price you pay.','bs'=>'Cijena koju vidite je cijena koju plaćate.','ar'=>'السعر الذي تراه هو السعر الذي تدفعه.'),
+'trust.freeCancellation'=>array('en'=>'Free Cancellation','bs'=>'Besplatno otkazivanje','ar'=>'إلغاء مجاني'),
+'trust.freeCancellationDesc'=>array('en'=>'Cancel up to 24 hours before pickup.','bs'=>'Otkažite do 24 sata prije preuzimanja.','ar'=>'إلغاء حتى 24 ساعة قبل الاستلام.'),
+'cars.title'=>array('en'=>'Premium Car Rentals','bs'=>'Premium iznajmljivanje automobila','ar'=>'تأجير السيارات الفاخرة'),
+'cars.subtitle'=>array('en'=>'Drive in style through the beautiful landscapes of Bosnia and Herzegovina','bs'=>'Vozite sa stilom kroz prelijepe pejzaže Bosne i Hercegovine','ar'=>'قيادة بأناقة عبر المناظر الطبيعية الجميلة للبوسنة والهرسك'),
+'cars.fleet'=>array('en'=>'Our Premium Car Fleet','bs'=>'Naša premium flota automobila','ar'=>'أسطول سياراتنا الفاخرة'),
+'cars.fleetDescription'=>array('en'=>'Choose from our selection of luxury and performance vehicles','bs'=>'Izaberite iz našeg izbora luksuznih vozila','ar'=>'اختر من مجموعتنا من السيارات الفاخرة'),
+'cars.features'=>array('en'=>'Features','bs'=>'Karakteristike','ar'=>'المميزات'),
+'cars.luxuryFleet'=>array('en'=>'Luxury Fleet','bs'=>'Luksuzna flota','ar'=>'أسطول فاخر'),
+'cars.luxuryFleetDesc'=>array('en'=>'Choose from a wide range of premium vehicles.','bs'=>'Birajte iz širokog spektra premium vozila.','ar'=>'اختر من مجموعة واسعة من المركبات الفاخرة.'),
+'cars.easyPickup'=>array('en'=>'Easy Pickup','bs'=>'Lako preuzimanje','ar'=>'استلام سهل'),
+'cars.easyPickupDesc'=>array('en'=>'Convenient pickup in Sarajevo, Mostar, and Banja Luka.','bs'=>'Pogodno preuzimanje u Sarajevu, Mostaru i Banjoj Luci.','ar'=>'استلام مريح في سراييفو وموستار وبانيا لوكا.'),
+'cars.searchCars'=>array('en'=>'Search Available Cars','bs'=>'Pretraži dostupne automobile','ar'=>'البحث عن السيارات المتاحة'),
+'cars.unlimitedMiles'=>array('en'=>'Unlimited Miles','bs'=>'Neograničena kilometraža','ar'=>'أميال غير محدودة'),
+'cars.airportPickup'=>array('en'=>'Sarajevo airport pickup & dropoff','bs'=>'Preuzimanje i vraćanje na aerodromu Sarajevo','ar'=>'الاستلام والتوصيل في مطار سراييفو'),
+'cars.roadsideAssistance'=>array('en'=>'24/7 roadside assistance','bs'=>'24/7 pomoć na putu','ar'=>'مساعدة على الطريق 24/7'),
+'cars.noHiddenFees'=>array('en'=>'No hidden fees','bs'=>'Bez skrivenih troškova','ar'=>'بدون رسوم خفية'),
+'cars.flexibleRental'=>array('en'=>'Flexible rental periods','bs'=>'Fleksibilni periodi iznajmljivanja','ar'=>'فترات إيجار مرنة'),
+'apartments.title'=>array('en'=>'Premium Accommodations in Bosnia','bs'=>'Premium smještaj u Bosni','ar'=>'أماكن إقامة فاخرة في البوسنة'),
+'apartments.subtitle'=>array('en'=>'Experience comfort and luxury in the heart of Bosnia','bs'=>'Doživite udobnost i luksuz u srcu Bosne','ar'=>'استمتع بالراحة والفخامة في قلب البوسنة'),
+'apartments.premiumTitle'=>array('en'=>'Premium Accommodations','bs'=>'Premium smještaj','ar'=>'أماكن إقامة فاخرة'),
+'apartments.viewAll'=>array('en'=>'View All Accommodations','bs'=>'Pogledaj sav smještaj','ar'=>'عرض جميع أماكن الإقامة'),
+'footer.description'=>array('en'=>'Premium apartments and luxury car rentals.','bs'=>'Premium apartmani i luksuzno iznajmljivanje automobila.','ar'=>'شقق فاخرة وتأجير سيارات فاخرة.'),
+'footer.quickLinks'=>array('en'=>'Quick Links','bs'=>'Brzi linkovi','ar'=>'روابط سريعة'),
+'footer.company'=>array('en'=>'Company','bs'=>'Kompanija','ar'=>'الشركة'),
+'footer.legal'=>array('en'=>'Legal','bs'=>'Pravno','ar'=>'قانوني'),
+'footer.terms'=>array('en'=>'Terms of Service','bs'=>'Uslovi korišćenja','ar'=>'شروط الخدمة'),
+'footer.privacy'=>array('en'=>'Privacy Policy','bs'=>'Pravila privatnosti','ar'=>'سياسة الخصوصية'),
+'footer.cookies'=>array('en'=>'Cookie Policy','bs'=>'Pravila kolačića','ar'=>'سياسة ملفات تعريف الارتباط'),
+'footer.copyright'=>array('en'=>'© %s Shams Al Bosnia. All rights reserved.','bs'=>'© %s Shams Al Bosnia. Sva prava zadržana.','ar'=>'© %s Shams Al Bosnia. جميع الحقوق محفوظة.'),
+'footer.scanMobile'=>array('en'=>'Scan to visit on mobile','bs'=>'Skeniraj za posjetu na mobilnom','ar'=>'امسح للزيارة على الهاتف'),
+'common.perDay'=>array('en'=>'/day','bs'=>'/dan','ar'=>'/يوم'),
+'common.perNight'=>array('en'=>'/night','bs'=>'/noć','ar'=>'/ليلة'),
+'common.readMore'=>array('en'=>'Read More','bs'=>'Pročitaj više','ar'=>'اقرأ المزيد'),
+'common.learnMore'=>array('en'=>'Learn More','bs'=>'Saznaj više','ar'=>'اعرف المزيد'),
+);
+function shams_t($key){global $shams_translations;$lang=shams_get_current_language();if(!isset($shams_translations[$key]))return $key;$t=$shams_translations[$key];return isset($t[$lang])?$t[$lang]:(isset($t['en'])?$t['en']:$key);}
+function shams_get_current_language(){
+  if(isset($_GET['lang'])&&in_array($_GET['lang'],array('en','bs','ar'))){$l=sanitize_text_field($_GET['lang']);setcookie('shams_lang',$l,time()+2592000,'/');return $l;}
+  if(isset($_COOKIE['shams_lang'])&&in_array($_COOKIE['shams_lang'],array('en','bs','ar')))return sanitize_text_field($_COOKIE['shams_lang']);
+  return 'en';
+}
+function shams_get_language_name($c){$n=array('en'=>'English','bs'=>'Bosanski','ar'=>'العربية');return isset($n[$c])?$n[$c]:'English';}
+function shams_get_languages(){return array('en'=>array('name'=>'English','flag'=>'🇬🇧'),'bs'=>array('name'=>'Bosanski','flag'=>'🇧🇦'),'ar'=>array('name'=>'العربية','flag'=>'🇸🇦'));}
